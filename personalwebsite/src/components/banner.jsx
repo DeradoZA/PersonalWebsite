@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import logo from "./images/Banner.png"
 
 class Banner extends Component{
 
@@ -9,7 +10,7 @@ class Banner extends Component{
     render() {
         return(
         <div>
-            <img src={this.state.bannerImg} alt="test"/>
+            <img src={logo} alt="test"/>
         </div>
         );
     }

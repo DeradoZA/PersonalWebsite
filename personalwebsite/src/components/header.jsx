@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import Banner from "./banner";
-import Navbar from "./navbar";
+import TopNav from "./topnav";
 
 class Header extends Component{
 
@@ -8,7 +8,7 @@ class Header extends Component{
         return(
             <div>
                 <Banner></Banner>
-                <Navbar></Navbar>
+                <TopNav></TopNav>
             </div>
         );    
     }
